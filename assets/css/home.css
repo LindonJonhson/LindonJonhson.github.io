@@ -1,5 +1,28 @@
+body{
+	margin: 0;
+	font-family: "Source Sans Pro",sans-serif;
+}
 header{
-  //width: 940px;
-  margin: 0 auto;
-  background: red;
+	background-color: #09f;
+	color: #fff;
+}
+h1, h2{
+	margin: 0;
+	color: #fff;
+}
+#about-me{
+	background-color: red;
+	height: 500px;
+}
+#what-i-do{
+	background-color: green;
+	height: 500px;
+}
+#portfolio{
+	background-color: yellow;
+	height: 500px;
+}
+#contact-me{
+	background-color: blue;
+	height: 500px;
 }
