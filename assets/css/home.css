@@ -4,15 +4,28 @@ body{
 }
 header{
 	background-color: #09f;
-	color: #fff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
-h1, h2{
+h1{
+	font-size: 30px;
+}
+h1, .section-title, .section-description{
 	margin: 0;
 	color: #fff;
 }
 #about-me{
-	background-color: red;
-	height: 500px;
+	/*
+    background: url(../img/sao_paulo.jpg) no-repeat;
+    background-size: 450px;
+    text-align: center;
+    padding: 10px 10px;
+	*/
+    background: url(../img/sao_paulo.jpg) no-repeat center;
+    background-size: 120%;
+    text-align: center;
+    padding: 10px 10px;
 }
 #what-i-do{
 	background-color: green;
