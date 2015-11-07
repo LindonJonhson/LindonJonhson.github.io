@@ -7,6 +7,14 @@ header{
     color: #fff;
     text-align: center;
     padding: 10px 0;
+	position: fixed;
+    width: 100%;
+    top: 0;
+}
+footer{
+    background-color: #09f;
+    text-align: center;
+    padding: 15px 0;
 }
 h1{
 	font-size: 30px;
@@ -15,13 +23,29 @@ h1, .section-title, .section-description{
 	margin: 0;
 	color: #fff;
 }
+#portrait{
+	background: url(../img/lindon_jonhson.jpg) no-repeat center;
+	color: transparent;
+    background-size: 110%;
+	text-indent: -9999px;
+    display: inline-block;
+    border-radius: 43px;
+    height: 86px;
+    width: 86px;
+}
+.copyright{
+    margin: 0;
+    color: #fff;
+    font-size: .9em;
+}
+.section-title{
+    display: inline-block;
+    padding: 0 0 2px 0;
+    border-bottom: 1px solid #fff;
+    font-size: 1.5em;
+    margin: 23px 0;
+}
 #about-me{
-	/*
-    background: url(../img/sao_paulo.jpg) no-repeat;
-    background-size: 450px;
-    text-align: center;
-    padding: 10px 10px;
-	*/
     background: url(../img/sao_paulo.jpg) no-repeat center;
     background-size: auto 100%;
     text-align: center;
@@ -29,15 +53,24 @@ h1, .section-title, .section-description{
 }
 #what-i-do{
 	background-color: green;
-	height: 500px;
+    background-size: auto 100%;
+    text-align: center;
+    padding: 10px 10px;
 }
 #portfolio{
 	background-color: yellow;
-	height: 500px;
+    background-size: auto 100%;
+    text-align: center;
+    padding: 10px 10px;
 }
 #contact-me{
 	background-color: blue;
-	height: 500px;
+    background-size: auto 100%;
+    text-align: center;
+    padding: 10px 10px;
+}
+.container{
+	margin-top: 135px;
 }
 /*HERE COMES THE MEDIA QUERIES AND THE PROGRESSIVE ENHACEMENT*/
 @media (min-width:465px) {
