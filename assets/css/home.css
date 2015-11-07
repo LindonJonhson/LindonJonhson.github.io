@@ -23,7 +23,7 @@ h1, .section-title, .section-description{
     padding: 10px 10px;
 	*/
     background: url(../img/sao_paulo.jpg) no-repeat center;
-    background-size: 120%;
+    background-size: auto 100%;
     text-align: center;
     padding: 10px 10px;
 }
@@ -38,4 +38,10 @@ h1, .section-title, .section-description{
 #contact-me{
 	background-color: blue;
 	height: 500px;
+}
+/*HERE COMES THE MEDIA QUERIES AND THE PROGRESSIVE ENHACEMENT*/
+@media (min-width:465px) {
+	#about-me{
+		background-size: 100% auto;	
+	}
 }
