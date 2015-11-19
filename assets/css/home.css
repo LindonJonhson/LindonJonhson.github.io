@@ -13,6 +13,7 @@ header{
 }
 header h1{
     display: inline-block;
+    line-height: 65px;
 }
 footer{
     background-color: #09f;
@@ -25,6 +26,13 @@ h1{
 h1, .section-title, .section-description{
 	margin: 0;
 	color: #fff;
+}
+.header{
+    position: relative;
+}
+.section-description{
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
 }
 #portrait{
 	background: url(../img/lindon_jonhson.jpg) no-repeat center;
@@ -61,7 +69,7 @@ h1, .section-title, .section-description{
     padding: 10px 10px;
 }
 #portfolio{
-	background-color: yellow;
+	background-color: red;
     background-size: auto 100%;
     text-align: center;
     padding: 10px 10px;
