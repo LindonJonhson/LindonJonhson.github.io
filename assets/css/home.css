@@ -1,3 +1,5 @@
+/*http://www.colourlovers.com/palette/3212733/Grow_apart*/
+
 body{
 	margin: 0;
 	font-family: "Source Sans Pro",sans-serif;
@@ -117,6 +119,10 @@ h1, .section-title, .section-description{
     margin: 5% auto;
     background-size: 86%;
     border-radius: 50%;
+}
+/*This should be deleted aftes i insert the porfolio part*/
+.section-description img{
+    width: 100%;
 }
 /*HERE COMES THE MEDIA QUERIES AND THE PROGRESSIVE ENHACEMENT*/
 @media (min-width:465px) {
