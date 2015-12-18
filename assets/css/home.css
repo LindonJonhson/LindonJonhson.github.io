@@ -63,7 +63,7 @@ h1, .section-title, .section-description{
     padding: 10px 10px;
 }
 #what-i-do{
-	background-color: green;
+	background-color: #6C8291;
     background-size: auto 100%;
     text-align: center;
     padding: 10px 10px;
@@ -75,7 +75,7 @@ h1, .section-title, .section-description{
     padding: 10px 10px;
 }
 #contact-me{
-	background-color: blue;
+	background-color: #464242;
     background-size: auto 100%;
     text-align: center;
     padding: 10px 10px;
@@ -85,15 +85,15 @@ h1, .section-title, .section-description{
 }
 #what-i-do .section-description h2#java-logo{
     background: url(../img/java.png) no-repeat center #fff;
-    background-size: 86%;
+    background-size: 80%;
 }
 #what-i-do .section-description h2#css3-logo{
     background: url(../img/css3.png) no-repeat center #fff;
-    background-size: 86%;
+    background-size: 80%;
 }
 #what-i-do .section-description h2#html5-logo{
     background: url(../img/html5.png) no-repeat center #fff;
-    background-size: 86%;
+    background-size: 80%;
 }
 #what-i-do .section-description h2#javascript-logo{
     background: url(../img/javascript.png) no-repeat center #fff;
@@ -103,8 +103,8 @@ h1, .section-title, .section-description{
     text-indent: -9999px;
     color:transparent;
     display: block;
-    width: 45%;
-    height: 130px;
+    width: 50%;
+    height: 10em;
     text-align: center;
     margin: 5% auto;
     border-radius: 50%;
