@@ -83,16 +83,6 @@ h1, .section-title, .section-description{
 .content{
 	margin-top: 85px;
 }
-#what-i-do .section-description h2{
-    text-indent: -9999px;
-    color:transparent;
-    display: block;
-    width: 45%;
-    height: 24%;
-    text-align: center;
-    margin: 0 auto;
-    border-radius: 50%;
-}
 #what-i-do .section-description h2#java-logo{
     background: url(../img/java.png) no-repeat center #fff;
     background-size: 86%;
@@ -114,10 +104,9 @@ h1, .section-title, .section-description{
     color:transparent;
     display: block;
     width: 45%;
-    height: 24%;
+    height: 130px;
     text-align: center;
     margin: 5% auto;
-    background-size: 86%;
     border-radius: 50%;
 }
 /*This should be deleted aftes i insert the porfolio part*/
