@@ -111,7 +111,7 @@ h1, .section-title, .section-description{
 }
 /*This should be deleted aftes i insert the porfolio part*/
 .section-description img{
-    width: 100%;
+    width: 60%;
 }
 /*HERE COMES THE MEDIA QUERIES AND THE PROGRESSIVE ENHACEMENT*/
 @media (min-width:465px) {
@@ -131,5 +131,8 @@ h1, .section-title, .section-description{
         text-align: center;
         margin: 10px;
         border-radius: 50%;
+    }
+    .section-description img{
+        width: 30%;
     }
 }
